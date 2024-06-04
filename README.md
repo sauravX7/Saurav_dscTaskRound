@@ -17,7 +17,7 @@ new-coder-survey-analysis/
 └── requirements.txt
 
 - `data/`: Contains the dataset used for analysis.
-- `notebooks/`: Jupyter notebooks for data analysis, visualization, and model training.
+- `notebooks/`: google Colab notebooks for data analysis, visualization, and model training.
 - `README.md`: Project documentation.
 - `requirements.txt`: List of dependencies required to run the project.
 
@@ -73,11 +73,11 @@ Here is an example of how to use the notebooks:
 
 1. **Run Data Analysis Notebook**:
 
-    Open `notebooks/1_data_analysis.ipynb` in Jupyter Notebook or Jupyter Lab and run all cells to preprocess the data.
+    Open `notebooks/1_data_analysis.ipynb` in google Colab and run all cells to preprocess the data.
 
 2. **Run Model Training Notebook**:
 
-    Open `notebooks/2_model_training.ipynb` in Jupyter Notebook or Jupyter Lab and run all cells to train and evaluate the model.
+    Open `notebooks/2_model_training.ipynb` in google Colab and run all cells to train and evaluate the model.
 
 ## Contributing
 
@@ -89,4 +89,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-If you have any questions or suggestions, please contact me at [email@example.com].
+If you have any questions or suggestions, please contact me at [sauravsamal9@gmail.com].
