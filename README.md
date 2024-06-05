@@ -1,12 +1,27 @@
-# New Coder Survey Analysis and Classification
+# Cluster Analysis and Model Training
 
 ## Project Overview
 
-This project aims to analyze data from the 2021 New Coder Survey and build machine learning models to predict whether a developer is in a high-income bracket based on their information. For new coders in this dataset, low income is defined as less than $30,000, while high income is $30,000 or more.
+This project involves cluster analysis and model training for predicting high-income developers based on the 2021 New Coder Survey dataset. The goal is to perform clustering to understand the characteristics of new coders and build machine learning models to predict whether a developer earns a high income.
 
+
+## Project Details
+
+### Clustering Analysis
+- **Objective:** Understand the characteristics of new coders by grouping them into clusters.
+- **Method:** K-Means clustering algorithm.
+- **Outcome:** Identification of distinct groups among new coders based on survey responses.
+
+### Classification Model
+- **Objective:** Predict whether a developer earns a high income (>= $30,000) or low income (< $30,000).
+- **Features:** Selected features from the survey data, including Q22 (income).
+- **Method:** Random Forest Classifier.
+- **Outcome:** A trained model that can classify developers into high-income or low-income categories.
+  
 ## Project Structure
 
-The project is structured as follows:
+The project is structured as follow
+
 new-coder-survey-analysis/
 ├── data
 │ └── 2021 New Coder Survey.csv
@@ -16,10 +31,15 @@ new-coder-survey-analysis/
 ├── README.md
 └── requirements.txt
 
-- `data/`: Contains the dataset used for analysis.
-- `notebooks/`: google Colab notebooks for data analysis, visualization, and model training.
-- `README.md`: Project documentation.
-- `requirements.txt`: List of dependencies required to run the project.
+### Directories
+
+- **data**: Contains the dataset used for analysis and model training.
+  - `2021 New Coder Survey.csv`: The main dataset file.
+- **notebooks**: Contains Jupyter notebooks for data analysis and model training.
+  - `1_data_analysis.ipynb`: Notebook for initial data exploration and preprocessing.
+  - `2_model_training.ipynb`: Notebook for training and evaluating the machine learning models.
+- **README.md**: Project documentation.
+- **requirements.txt**: List of Python dependencies required for the project.
 
 ## Setup Instructions
 
